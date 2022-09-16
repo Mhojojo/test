@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <title>Order</title>
+    <style>
+        td:hover{
+            background-color: orange
+        }
+        .table{
+            border: 1px solid black
+        }
+    </style>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="https://cdn-icons-png.flaticon.com/512/161/161588.png" style="max-width:20px"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-supported-content"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-supported-content">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Order.html">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Account Registration.html">Register</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <input class="form-control" type="search" placeholder="What do you want to know?" />
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<h1 class="text-center">Danny's Foods</h1>
+<body>
+    <div class="container pt: 3">
+        <div class="row">
+            <div class="col-lg-7 table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="text-center">
+                        <tr style="background-color:orange; color:white">
+                            <th>Icons</th>
+                            <th>Item Name</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr style="background-color:rgb(196, 173, 176)">
+                            <th colspan="3">Meals</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-striped table-bordered">
+                            <td><img class="img-responsive" src="https://s7d1.scene7.com/is/image/mcdonalds/t-mcdonalds-Hamburger:1-3-product-tile-desktop?wid=829&hei=515&dpr=off" alt="burger" style="max-width: 50px; max-height: 50px"></td>
+                            <td>Burger</td>
+                            <td>55 PHP</td>
+                        </tr>
+                        <tr>
+                            <td><img class="img-responsive" src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2017_20/1215172/fried-chicken-today-tease1-170517.jpg" alt="chicken" style="max-width: 50px; max-height: 50px"></td>
+                            <td>Fried Chicken</td>
+                            <td>80PHP</td>
+                        </tr>
+                        <tr>
+                            <td><img class="img-responsive" src="https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=%5B1260%2C519%5D&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F03%2F09%2F158140-Spaghetti-sauce-with-ground-beef-mfs-209.jpg" alt="spaghetti" style="max-width: 50px; max-height: 50px"></td>
+                            <td>Spaghetti</td>
+                            <td>55php</td>
+                        </tr>
+                        <tr>
+                            <td><img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="Pizza" style="max-width: 50px; max-height: 50px"></td>
+                            <td>Pizza</td>
+                            <td>150 PHP</td>
+                        </tr>
+                    </tbody>
+                    <thead class="text-center">
+                        <tr style="background-color:rgb(196, 173, 176)">
+                            <th colspan="3">Drinks</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhSyiTKszshoYM-vW4IR9EbqyKUbMemFxDA&usqp=CAU" alt="Coke" style="max-width: 50px; max-height: 30px"></td>
+                            <td>Coke</td>
+                            <td>20 PHP</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHs-U5-FJS3D6Z3HlJAPgBHj-U7CO_xwPWVw&usqp=CAU" alt="Sprite" style="max-width: 50px; max-height: 30px"></td>
+                            <td>Sprite</td>
+                            <td>20 PHP</td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://i0.wp.com/www.theimpulsivebuy.com/images/sarsi.jpg?w=648" alt="Sarsi" style="max-width: 50px; max-height: 30px"></td>
+                            <td>Sarsi</td>
+                            <td>20 PHP</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" colspan="2" style="background-color:rgb(233, 194, 122)">All items are subject to tax. No refuns. All items are not transferrable.</td>
+                            <td>Extra Rice- 20 PHP</td>
+                        </tr>
+                        <tr>
+                            <td>Condiements- 20 PHP</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-5-lg">
+                    <a href="https://www.facebook.com/kent.densing"><img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" style="width: 35px"></a>
+                    <a href="https://twitter.com/">
+                        <img src="http://jetprogramme.org/wp-content/uploads/2017/03/twitter-logo.png" style="width: 35px">
+                    </a>
+                    <a href="https://www.instagram.com/kentdensing/"><img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg" style="width: 35px">
+                    </a>
+                    <a href="https://www.pinterest.ph/"><img src="https://i.pinimg.com/originals/1b/76/01/1b7601e035a83c13c208b4ec905ee6d9.png" style="width:35px">
+                    </a>
+                    <a href="https://www.linkedin.com/login"><img src="https://yt3.ggpht.com/9XmuxL_LL7CxAOOlbBgTnJIo2uHpoLKHhWzlPt7O49ULQmvBSJlxk1RpX3pJ8jkRBkD6p9BIRg=s900-c-k-c0x00ffffff-no-rj" style="width:35px">
+                    </a>
+                    <a href="https://www.youtube.com/"><img src="https://yt3.ggpht.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s900-c-k-c0x00ffffff-no-rj" style="width:35px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
